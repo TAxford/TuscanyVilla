@@ -142,6 +142,12 @@ section.grid-item.grid-item-6 {
     height:200px;
 }
 
+#imgSec6 {
+    height: 90%;
+    width: 90%;
+    margin:10px;
+}
+
 section.grid-item.grid-item-7 {
     grid-column: 1 / span 3;
     background-color: white;
