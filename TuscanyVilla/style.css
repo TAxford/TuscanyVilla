@@ -81,18 +81,6 @@ section.grid-item.grid-item-3 {
     width:100%;
 }
 
-.textSec3 h1 {
-    color: snow;
-    font-size: 25px;
-    margin-left: 500px;
-    margin-bottom: 10px;
-}
-
-.textSec3 p {
-    color: snow;
-    font-size: 10px;
-    margin-left: 500px;
-}
 
 section.grid-item.grid-item-4 {
     grid-column: 1 / span 3;
@@ -100,15 +88,57 @@ section.grid-item.grid-item-4 {
     height: 100px;
 }
 
+.textSec4 h1 {
+    color: snow;
+    font-size: 25px;
+    margin-left: 450px;
+    margin-bottom: 10px;
+}
+
+.textSec4 p {
+    color: snow;
+    font-size: 10px;
+    margin-left: 475px;
+}
+
+
+
 section.grid-item.grid-item-5 {
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 2;
     background-color: white;
     height:200px;
 }
 
-section.grid-item.grid-item-6 {
-    grid-column: 1 / span 3;
+.textSec5 h1 {
+    color: black;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.textSec5 p {
+    color: black;
+    font-size: 10px;
+    margin-left: 20px;
+    text-overflow:ellipsis;
+}
+
+.buttonSec5 {
     background-color: darkslategray;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 6px;
+    margin: 4px 20px;
+    width: 50px;
+    font-weight: bold;
+}
+
+section.grid-item.grid-item-6 {
+    grid-column: 3 / span 1;
+    background-color: snow;
     height:200px;
 }
 
