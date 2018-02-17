@@ -91,14 +91,14 @@ section.grid-item.grid-item-4 {
 .textSec4 h1 {
     color: snow;
     font-size: 25px;
-    margin-left: 450px;
+    margin-left: 500px;
     margin-bottom: 10px;
 }
 
 .textSec4 p {
     color: snow;
     font-size: 10px;
-    margin-left: 475px;
+    margin-left: 520px;
 }
 
 
@@ -132,7 +132,7 @@ section.grid-item.grid-item-5 {
     text-decoration: none;
     font-size: 7px;
     margin: 4px 20px;
-    width: 50px;
+    width: 75px;
     font-weight: bold;
 }
 
@@ -189,7 +189,7 @@ section.grid-item.grid-item-8 {
     text-decoration: none;
     font-size: 7px;
     margin: 4px 20px;
-    width: 50px;
+    width:75px;
     font-weight: bold;
 }
 
@@ -240,20 +240,81 @@ section.grid-item.grid-item-10 {
 
 section.grid-item.grid-item-11 {
     grid-column: 1 / span 3;
-    background-color: black;
-    height: 300px;
+    background-color: darkslategray;
+    height: 100px;
+}
+
+.textSec11 h1 {
+    color: snow;
+    font-size: 20px;
+    margin-left: 500px;
+    margin-bottom: 10px;
+}
+
+.textSec11 p {
+    color: snow;
+    font-size: 10px;
+    margin-left: 510px;
+    text-overflow: ellipsis;
 }
 
 section.grid-item.grid-item-12 {
     grid-column: 1 / span 1;
-    background-color: green;
+    background-image: url('Img/3b-348x348.jpg');
     height: 300px;
+    background-size:cover;
+    margin:20px;
 }
+
+.textSec12 h1 {
+    color: snow;
+    font-size: 20px;
+    margin-left: 130px;
+    margin-top: 150px;
+    
+}
+
 
 section.grid-item.grid-item-13 {
     grid-column: 2 / span 1;
-    background-color: lawngreen;
+    background-color:snow;
     height: 300px;
+    margin:20px;
+}
+
+.textSec13 h1 {
+    color: black;
+    font-size: 20px;
+    margin-left: 60px;
+    
+}
+
+.textSec13 h2 {
+    color: black;
+    font-size: 20px;
+    margin-left:100px;
+    
+}
+
+
+.textSec13 p {
+    color: black;
+    font-size: 10px;
+    margin-left: 30px;
+    text-overflow: ellipsis;
+}
+
+.buttonSec13 {
+    background-color: darkslategray;
+    border: none;
+    color: snow;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 7px;
+    margin: 4px 100px;
+    width: 75px;
+    font-weight: bold;
 }
 
 section.grid-item.grid-item-14 {
