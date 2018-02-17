@@ -130,7 +130,7 @@ section.grid-item.grid-item-5 {
     padding: 10px 15px;
     text-align: center;
     text-decoration: none;
-    font-size: 6px;
+    font-size: 7px;
     margin: 4px 20px;
     width: 50px;
     font-weight: bold;
@@ -149,31 +149,97 @@ section.grid-item.grid-item-6 {
 }
 
 section.grid-item.grid-item-7 {
-    grid-column: 1 / span 3;
-    background-color: white;
+    grid-column: 1 / span 1;
+    background-color: darkslategray;
     height:200px;
 }
 
+#imgSec7 {
+    height: 90%;
+    width: 90%;
+    margin: 10px;
+}
+
 section.grid-item.grid-item-8 {
-    grid-column: 1 / span 3;
+    grid-column: 2 / span 2;
     background-color: darkslategray;
-    height:100px;
+    height:200px;
+}
+
+.textSec8 h1 {
+    color: snow;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.textSec8 p {
+    color: snow;
+    font-size: 10px;
+    margin-left: 20px;
+    text-overflow: ellipsis;
+}
+
+.buttonSec8 {
+    background-color: snow;
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 7px;
+    margin: 4px 20px;
+    width: 50px;
+    font-weight: bold;
 }
 
 section.grid-item.grid-item-9 {
-    grid-column: 1 / span 1;
-    background-color: green;
+    grid-column: 1 / span 2;
+    background-color: snow;
     height:300px;
 }
 
+.textSec9 h1 {
+    color: black;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.textSec9 p {
+    color: black;
+    font-size: 10px;
+    margin-left: 20px;
+    text-overflow: ellipsis;
+}
+
+.buttonSec9 {
+    background-color: darkslategray;
+    border: none;
+    color: snow;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 7px;
+    margin: 4px 20px;
+    width: 50px;
+    font-weight: bold;
+}
+
 section.grid-item.grid-item-10 {
-    grid-column: 2 / span 1;
-    background-color: lawngreen;
+    grid-column: 3 / span 1;
+    background-color: snow;
     height: 300px;
 }
 
+#imgSec10 {
+    height: 90%;
+    width: 90%;
+    margin: 10px;
+}
+
 section.grid-item.grid-item-11 {
-    grid-column: 3 / span 1;
+    grid-column: 1 / span 3;
     background-color: black;
     height: 300px;
 }
