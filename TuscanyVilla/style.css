@@ -53,6 +53,22 @@ section.grid-item.grid-item-2 {
     background-size:cover;
 }
 
+.textSec2 {
+    position: relative;
+    font-family:'Times New Roman';
+    }
+.textSec2 h1{
+    color:snow;
+    font-size:50px;
+    margin-left:250px;
+    margin-bottom:10px;
+}
+.textSec2 p{
+    color:snow;
+    font-size:20px;
+    margin-left:275px;
+}
+
 
 section.grid-item.grid-item-3 {
     grid-column: 3 / span 1;
@@ -67,7 +83,7 @@ section.grid-item.grid-item-3 {
 
 section.grid-item.grid-item-4 {
     grid-column: 1 / span 3;
-    background-color: lawngreen;
+    background-color: darkslategray;
     height: 100px;
 }
 
