@@ -50,35 +50,36 @@ section.grid-item.grid-item-2 {
     grid-column: 1 / span 2;
     height: 300px;
     background-image: url('Img/tuscany-villas-sant-anna.jpg');
-    background-size:cover;
+    background-size: cover;
 }
 
 .textSec2 {
     position: relative;
-    font-family:'Times New Roman';
+    font-family: 'Times New Roman';
+}
+
+    .textSec2 h1 {
+        color: snow;
+        font-size: 50px;
+        margin-left: 250px;
+        margin-bottom: 10px;
     }
-.textSec2 h1{
-    color:snow;
-    font-size:50px;
-    margin-left:250px;
-    margin-bottom:10px;
-}
-.textSec2 p{
-    color:snow;
-    font-size:20px;
-    margin-left:275px;
-}
+
+    .textSec2 p {
+        color: snow;
+        font-size: 20px;
+        margin-left: 275px;
+    }
 
 
 section.grid-item.grid-item-3 {
     grid-column: 3 / span 1;
     height: 300px;
-    
 }
 
-#imgSec3{
-    height:100%;
-    width:100%;
+#imgSec3 {
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -106,7 +107,7 @@ section.grid-item.grid-item-4 {
 section.grid-item.grid-item-5 {
     grid-column: 1 / span 2;
     background-color: white;
-    height:200px;
+    height: 200px;
 }
 
 .textSec5 h1 {
@@ -120,7 +121,7 @@ section.grid-item.grid-item-5 {
     color: black;
     font-size: 10px;
     margin-left: 20px;
-    text-overflow:ellipsis;
+    text-overflow: ellipsis;
 }
 
 .buttonSec5 {
@@ -139,19 +140,19 @@ section.grid-item.grid-item-5 {
 section.grid-item.grid-item-6 {
     grid-column: 3 / span 1;
     background-color: snow;
-    height:200px;
+    height: 200px;
 }
 
 #imgSec6 {
     height: 90%;
     width: 90%;
-    margin:10px;
+    margin: 10px;
 }
 
 section.grid-item.grid-item-7 {
     grid-column: 1 / span 1;
     background-color: darkslategray;
-    height:200px;
+    height: 200px;
 }
 
 #imgSec7 {
@@ -163,7 +164,7 @@ section.grid-item.grid-item-7 {
 section.grid-item.grid-item-8 {
     grid-column: 2 / span 2;
     background-color: darkslategray;
-    height:200px;
+    height: 200px;
 }
 
 .textSec8 h1 {
@@ -189,14 +190,14 @@ section.grid-item.grid-item-8 {
     text-decoration: none;
     font-size: 7px;
     margin: 4px 20px;
-    width:75px;
+    width: 75px;
     font-weight: bold;
 }
 
 section.grid-item.grid-item-9 {
     grid-column: 1 / span 2;
     background-color: snow;
-    height:300px;
+    height: 300px;
 }
 
 .textSec9 h1 {
@@ -262,8 +263,8 @@ section.grid-item.grid-item-12 {
     grid-column: 1 / span 1;
     background-image: url('Img/3b-348x348.jpg');
     height: 300px;
-    background-size:cover;
-    margin:20px;
+    background-size: cover;
+    margin: 20px;
 }
 
 .textSec12 h1 {
@@ -271,29 +272,26 @@ section.grid-item.grid-item-12 {
     font-size: 20px;
     margin-left: 130px;
     margin-top: 150px;
-    
 }
 
 
 section.grid-item.grid-item-13 {
     grid-column: 2 / span 1;
-    background-color:snow;
+    background-color: snow;
     height: 300px;
-    margin:20px;
+    margin: 20px;
 }
 
 .textSec13 h1 {
     color: black;
     font-size: 20px;
     margin-left: 60px;
-    
 }
 
 .textSec13 h2 {
     color: black;
     font-size: 20px;
-    margin-left:100px;
-    
+    margin-left: 100px;
 }
 
 
@@ -320,9 +318,9 @@ section.grid-item.grid-item-13 {
 section.grid-item.grid-item-14 {
     grid-column: 3 / span 1;
     background-image: url('Img/42-348x348.jpg');
-    background-size:cover;
+    background-size: cover;
     height: 300px;
-    margin:20px;
+    margin: 20px;
 }
 
 .textSec14 h1 {
@@ -336,7 +334,7 @@ section.grid-item.grid-item-15 {
     grid-column: 1 / span 1;
     background-color: snow;
     height: 300px;
-    margin:20px;
+    margin: 20px;
 }
 
 .textSec15 h1 {
@@ -368,9 +366,9 @@ section.grid-item.grid-item-15 {
 section.grid-item.grid-item-16 {
     grid-column: 2 / span 1;
     background-image: url('Img/314-348x348.jpg');
-    background-size:cover;
+    background-size: cover;
     height: 300px;
-    margin:20px;
+    margin: 20px;
 }
 
 .textSec16 h1 {
@@ -384,7 +382,7 @@ section.grid-item.grid-item-17 {
     grid-column: 3 / span 1;
     background-color: snow;
     height: 300px;
-    margin:20px;
+    margin: 20px;
 }
 
 .textSec17 h1 {
@@ -418,7 +416,7 @@ section.grid-item.grid-item-18 {
     background-image: url('Img/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
     background-size: cover;
     height: 300px;
-    margin:20px;
+    margin: 20px;
 }
 
 .textSec18 h1 {
@@ -432,7 +430,7 @@ section.grid-item.grid-item-19 {
     grid-column: 2 / span 1;
     background-color: snow;
     height: 300px;
-    margin:20px;
+    margin: 20px;
 }
 
 .textSec19 h1 {
@@ -464,9 +462,9 @@ section.grid-item.grid-item-19 {
 section.grid-item.grid-item-20 {
     grid-column: 3 / span 1;
     background-image: url('Img/Villa-Vanna-231-348x348.jpg');
-    background-size:cover;
+    background-size: cover;
     height: 300px;
-    margin:20px;
+    margin: 20px;
 }
 
 .textSec20 h1 {
@@ -478,8 +476,22 @@ section.grid-item.grid-item-20 {
 
 section.grid-item.grid-item-21 {
     grid-column: 1 / span 3;
-    background-color: black;
-    height: 300px;
+    background-color: darkslategray;
+    height: 100px;
+}
+
+.textSec21 h1 {
+    color: snow;
+    font-size: 20px;
+    margin-left: 500px;
+    margin-bottom: 10px;
+}
+
+.textSec21 p {
+    color: snow;
+    font-size: 10px;
+    margin-left: 500px;
+    text-overflow: ellipsis;
 }
 
 section.grid-item.grid-item-22 {
@@ -488,8 +500,164 @@ section.grid-item.grid-item-22 {
     height: 300px;
 }
 
+.carousel-wrapper {
+    height: 300px;
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.arrow {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 50px;
+    height: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    background: url("http://dancort.es/assets/img/css-carousel/carousel-arrow-dark.png") 50% 50% / 20px no-repeat;
+}
+
+.arrow-prev {
+    left: 0;
+}
+
+.arrow-next {
+    right: 0;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.light {
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .arrow, .light .arrow {
+        background-size: 10px;
+        background-position: 10px 50%;
+    }
+}
+
+
+
+
+[id^="item"] {
+    display: none;
+}
+
+.item-1 {
+    z-index: 2;
+    opacity: 1;
+    background: url('https://static.pexels.com/photos/6526/sea-beach-holiday-vacation-large.jpg');
+    background-size: cover;
+}
+
+.item-2 {
+    background: url('https://static.pexels.com/photos/6506/alcohol-bar-drinks-party-large.jpg');
+    background-size: cover;
+}
+
+.item-3 {
+    background: url('https://static.pexels.com/photos/6529/lake-kajak-kayak-large.jpg');
+    background-size: cover;
+}
+
+*:target ~ .item-1 {
+    opacity: 0;
+}
+
+#item-1:target ~ .item-1 {
+    opacity: 1;
+}
+
+#item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+    z-index: 3;
+    opacity: 1;
+}
+
+
 section.grid-item.grid-item-23 {
     grid-column: 1 / span 3;
-    background-color: black;
+    background-color: darkslategray;
+    height: 100px;
+}
+
+.textSec23 h1 {
+    color: snow;
+    font-size: 20px;
+    margin-left: 500px;
+    margin-bottom: 10px;
+}
+
+.textSec23 p {
+    color: snow;
+    font-size: 10px;
+    margin-left: 505px;
+    text-overflow: ellipsis;
+}
+
+section.grid-item.grid-item-24 {
+    grid-column: 1 / span 1;
     height: 300px;
+    background-color:snow;
+}
+
+
+.textSec24 p {
+    color: black;
+    font-size: 10px;
+    margin-left: 10px;
+    text-overflow: ellipsis;
+    font-weight:bold;
+}
+section.grid-item.grid-item-25 {
+    grid-column: 2 / span 2;
+    height: 300px;
+    background-color:snow;
+    
+}
+
+.textSec25 p {
+    color: black;
+    font-size: 10px;
+    margin-left: 500px;
+    text-overflow: ellipsis;
+    font-weight: bold;
+}
+
+.buttonSec25 {
+    background-color: darkslategray;
+    border: none;
+    color: snow;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    margin: 4px 200px;
+    width: 50px;
+    font-weight: bold;
+}
+section.grid-item.grid-item-26 {
+    grid-column: 1 / span 3;
+    height: 100px;
+    background-color: darkslategray;
+}
+
+.textSec26 p {
+    color: snow;
+    font-size: 10px;
+    margin-left: 505px;
+    
+    text-overflow: ellipsis;
 }
